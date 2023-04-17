@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bulletin Board</title>
+    <link rel="stylesheet" href="bulletin.css" />
+  </head>
+  <body>
+    <h1>Wolfer Finance Bulletin</h1>
+    <div id="filter">
+      <label for="category-filter">Filter by category:</label>
+      <select id="category-filter">
+        <option value="all">All categories</option>
+        <option value="presend">Presend</option>
+        <option value="profits">Profits</option>
+      </select>
+    </div>
+
+    <div id="events"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="renderevents.js"></script>
+  </body>
+</html>
